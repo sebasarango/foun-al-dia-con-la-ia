@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ruta para administrativos - La FOUN al dIA con la IA">
+  <title>Ruta para administrativos | La FOUN al dIA con la IA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html"><span class="brand-main">La FOUN al dIA con la IA</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+      <span class="sr-only">Abrir menú</span><span></span><span></span><span></span>
+    </button>
+    <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
+      <a href="index.html" >Inicio</a>
+      <a href="docentes.html" >Docentes</a>
+      <a href="administrativos.html" class='active'>Administrativos</a>
+      <a href="estudiantes.html" >Estudiantes</a>
+    </nav>
+    <div class="institution">Facultad de Odontología · UNAL</div>
+  </div>
+</header>
+
+<main data-route-page="administrativos">
+  <section class="route-hero route-accent-administrativos">
+    <div class="container">
+      <nav class="breadcrumbs"><a href="index.html">Inicio</a><span>›</span><span>Administrativos</span></nav>
+      <span class="eyebrow">Ruta para administrativos</span>
+      <h1>Incorpora la IA en tareas administrativas cotidianas</h1>
+      <p>Explora usos prácticos de la inteligencia artificial para apoyar la gestión de información, la comunicación y otras tareas administrativas.</p>
+      <div class="route-summary">
+        <span>5 sesiones</span><span>2 generales</span><span>3 específicas</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="journey-section">
+    <div class="container">
+      <div class="section-heading compact">
+        <span class="eyebrow">Tu recorrido</span>
+        <h2>Sesiones de la ruta</h2>
+        <p>Las sesiones se habilitan progresivamente. Cuando una sesión esté disponible, podrás abrirla y consultar todos sus materiales.</p>
+      </div>
+      <div class="session-list" id="route-session-list"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <strong>La FOUN al dIA con la IA</strong>
+      <p>Ruta de formación en Inteligencia Artificial</p>
+    </div>
+    <div class="footer-meta">
+      <p>Facultad de Odontología</p>
+      <p>Universidad Nacional de Colombia</p>
+      <p>2026</p>
+    </div>
+  </div>
+</footer>
+
+<script src="site-config.js"></script>
+<script src="main.js"></script>
+</body></html>

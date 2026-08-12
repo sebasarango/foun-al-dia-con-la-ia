@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Preparar clases, seminarios y evaluaciones con IA - La FOUN al dIA con la IA">
+<title>Preparar clases, seminarios y evaluaciones con IA | La FOUN al dIA con la IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header"><div class="container header-inner">
+<a class="brand" href="index.html"><span class="brand-main">La FOUN al dIA con la IA</span></a>
+<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><span class="sr-only">Abrir menú</span><span></span><span></span><span></span></button>
+<nav id="main-nav" class="main-nav" aria-label="Navegación principal"><a href="index.html">Inicio</a><a href="docentes.html">Docentes</a><a href="administrativos.html">Administrativos</a><a href="estudiantes.html">Estudiantes</a></nav>
+<div class="institution">Facultad de Odontología · UNAL</div>
+</div></header>
+
+<main class="session-page" data-session-page="docentes-1">
+<div id="locked-session-message" class="locked-page-message" hidden><div class="locked-page-card"><span class="locked-icon">🔒</span><span class="eyebrow">Sesión aún no disponible</span><h1 id="locked-session-title">Preparar clases, seminarios y evaluaciones con IA</h1><p id="locked-session-date"></p><a href="index.html" class="button button-primary">Volver al inicio</a></div></div>
+
+<div id="session-content">
+<section class="session-hero"><div class="container">
+<nav class="breadcrumbs"><a href="index.html">Inicio</a><span>›</span><span>Sesión específica · Docentes 01</span></nav>
+<span class="eyebrow">Sesión específica · Docentes 01</span>
+<h1>Preparar clases, seminarios y evaluaciones con IA</h1>
+<p>Taller aplicado para docentes orientado a utilizar herramientas de inteligencia artificial como apoyo para diseñar o mejorar clases, seminarios, actividades y recursos evaluativos. La sesión trabaja la construcción de propuestas iniciales de clase a partir del contexto, el resultado de aprendizaje, la secuencia, la participación, la evidencia y las condiciones de la sesión; posteriormente aborda el diseño de rúbricas, bancos de preguntas, cuestionarios e instrucciones. El principio de trabajo es que la IA propone primeras versiones y el docente verifica, ajusta y decide.</p>
+<div class="session-hero-meta"><span>Docentes</span><span>Duración: 120 minutos</span></div>
+<a class="button button-primary" href="assets/presentations/S_ESP_DOC_1.pdf" download>↓ Descargar presentación</a>
+</div></section>
+
+<section class="session-outline"><div class="container">
+<div class="section-heading compact"><span class="eyebrow">En esta sesión</span><h2>Tu recorrido</h2></div>
+<div class="outline-list"><div class="outline-item"><span>01</span><div><strong>Introducción al uso de IA como apoyo para organizar ideas, proponer estructuras y crear primeras versiones de recursos docentes.</strong></div></div><div class="outline-item"><span>02</span><div><strong>Explicación 1: cómo convertir un tema en una clase considerando propósito, secuencia, participación, evidencia y condiciones.</strong></div></div><div class="outline-item"><span>03</span><div><strong>Reto práctico 1: diseñar o mejorar una clase, seminario o actividad académica real con apoyo de IA.</strong></div></div><div class="outline-item"><span>04</span><div><strong>Explicación 2: uso de IA para evaluación, rúbricas, cuestionarios, instrucciones y otros recursos evaluativos.</strong></div></div><div class="outline-item"><span>05</span><div><strong>Reto práctico 2: construir y revisar una primera versión de un recurso evaluativo alineado con el aprendizaje esperado.</strong></div></div></div>
+</div></section>
+
+<section class="exercise-section"><div class="container exercise-stack">
+    <article class="exercise-card">
+      <header class="exercise-header">
+        <span class="exercise-label">EJERCICIO 01</span>
+        <h2>Diseñar una clase</h2>
+        <p>Reto práctico en el que cada docente trabaja con una clase, tema o actividad académica real y utiliza IA para generar una estructura inicial de la sesión.</p>
+      </header>
+      <div class="exercise-objective"><span class="step-kicker">Objetivo</span><p>Construir una primera versión de clase o seminario alineada con un resultado de aprendizaje, con momentos definidos, participación de los estudiantes, recursos, tiempos y evidencia de aprendizaje, y posteriormente revisar su viabilidad y pertinencia pedagógica.</p></div>
+      
+        <div class="exercise-step">
+          <span class="step-number">Paso 1</span><h3>Prepárate para la actividad</h3>
+          <ol><li>Seleccione un tema real de su curso, clase o seminario.</li><li>Complete el contexto: asignatura o curso, nivel de los estudiantes, duración, resultado de aprendizaje esperado, conocimientos previos, número aproximado de estudiantes, modalidad, tipo de participación, producto o evidencia y restricciones.</li><li>No incluya datos personales, clínicos o sensibles.</li><li>Abra una herramienta de IA generativa y complete los campos entre corchetes del prompt.</li></ol>
+        </div>
+        <div class="exercise-step">
+          <span class="step-number">Paso 2</span><h3>Copia el prompt</h3>
+          <p>Copia el siguiente texto completo y pégalo en la herramienta correspondiente.</p>
+          <div class="prompt-block">
+            <div class="prompt-topbar"><span>PROMPT</span><button class="copy-prompt" type="button" data-copy-target="docentes-1-prompt-1">Copiar prompt</button></div>
+            <div id="docentes-1-prompt-1" class="prompt-text">Actúa como asistente de diseño educativo.
+
+Ayúdame a estructurar una clase o seminario sobre [tema], dirigido a estudiantes de [programa/nivel], en la asignatura [nombre del curso].
+
+La sesión tendrá una duración de [tiempo] y busca que los estudiantes sean capaces de [resultado de aprendizaje].
+
+Ten en cuenta estos elementos:
+- Conocimientos previos: [información]
+- Número aproximado de estudiantes: [número]
+- Modalidad: [presencial/virtual/híbrida]
+- Tipo de participación esperada: [individual/grupal/discusión/caso/taller]
+- Producto o evidencia esperada: [producto]
+
+Propón una estructura en tabla con las columnas: momento, propósito, actividad del docente, actividad del estudiante, recursos, tiempo y evidencia.
+
+Al final, incluye dos recomendaciones para mejorar la pertinencia pedagógica de la sesión.</div>
+          </div>
+        </div>
+        <div class="exercise-step">
+          <span class="step-number">Paso 3</span><h3>Revisa el resultado</h3>
+          <p>Revisa la propuesta anterior e identifica qué partes podrían ser poco viables, demasiado generales o desalineadas con el resultado de aprendizaje. Luego propón una versión mejorada.</p>
+        </div>
+      
+      <aside class="reflection-box"><span class="step-kicker">Fíjate en esto</span><ul><li>La IA no conoce el curso: el contexto determina en gran medida la pertinencia de la propuesta.</li><li>Verifique que los tiempos propuestos sean realistas y que la secuencia pueda ejecutarse en la duración disponible.</li><li>Revise que la actividad y la evidencia estén alineadas con el resultado de aprendizaje.</li><li>Compruebe que el nivel de profundidad sea adecuado para los estudiantes.</li><li>La IA propone una primera versión; el docente conserva la responsabilidad de validar y ajustar el diseño pedagógico.</li></ul></aside>
+    
+    </article>
+    <article class="exercise-card">
+      <header class="exercise-header">
+        <span class="exercise-label">EJERCICIO 02</span>
+        <h2>Construir un recurso evaluativo</h2>
+        <p>Reto práctico que toma como punto de partida la clase o seminario del ejercicio anterior para generar una primera versión de un recurso evaluativo, como una rúbrica, banco de preguntas, cuestionario, instrucciones para una actividad o caso de estudio.</p>
+      </header>
+      <div class="exercise-objective"><span class="step-kicker">Objetivo</span><p>Diseñar con apoyo de IA un recurso evaluativo coherente con el resultado de aprendizaje, la actividad realizada y la evidencia esperada, y someterlo a una revisión crítica antes de utilizarlo.</p></div>
+      
+        <div class="exercise-step">
+          <span class="step-number">Paso 1</span><h3>Prepárate para la actividad</h3>
+          <ol><li>Tome como punto de partida la clase o seminario diseñado en el ejercicio anterior.</li><li>Defina qué aprendizaje desea evaluar.</li><li>Seleccione el tipo de recurso que desea construir.</li><li>Complete la información de contexto solicitada en el prompt.</li><li>Genere una primera versión y revísela antes de solicitar una mejora.</li></ol>
+        </div>
+        <div class="exercise-step">
+          <span class="step-number">Paso 2</span><h3>Copia el prompt</h3>
+          <p>Copia el siguiente texto completo y pégalo en la herramienta correspondiente.</p>
+          <div class="prompt-block">
+            <div class="prompt-topbar"><span>PROMPT</span><button class="copy-prompt" type="button" data-copy-target="docentes-1-prompt-2">Copiar prompt</button></div>
+            <div id="docentes-1-prompt-2" class="prompt-text">Actúa como asistente de diseño educativo.
+
+A partir de la siguiente información, construye una primera versión de un [tipo de recurso].
+
+Contexto de la clase:
+- Asignatura:
+- Nivel de los estudiantes:
+- Tema:
+- Resultado de aprendizaje:
+- Actividad desarrollada:
+- Evidencia esperada:
+- Tiempo disponible:
+
+El recurso debe:
+1. Estar alineado con el resultado de aprendizaje.
+2. Tener instrucciones claras para los estudiantes.
+3. Utilizar contenido académicamente preciso.
+4. Ser viable dentro del tiempo disponible.
+5. Incluir la respuesta, desempeño o producto esperado.
+6. Explicar brevemente por qué sus componentes permiten evaluar el aprendizaje definido.
+
+Presenta el resultado en un formato claro y listo para ser revisado por el docente.
+
+Al final, señala qué elementos deberían verificarse antes de utilizarlo.</div>
+          </div>
+        </div>
+        <div class="exercise-step">
+          <span class="step-number">Paso 3</span><h3>Revisa el resultado</h3>
+          <p>Revisa críticamente el recurso anterior. Identifica elementos ambiguos o poco claros, posibles errores conceptuales, criterios difíciles de observar, actividades desalineadas con el resultado de aprendizaje y dificultades de aplicación dentro del tiempo disponible. Después, presenta una versión corregida y explica brevemente los cambios realizados.</p>
+        </div>
+      
+      <aside class="reflection-box"><span class="step-kicker">Fíjate en esto</span><ul><li>Un recurso bien redactado no necesariamente es un recurso bien diseñado.</li><li>Compruebe que el recurso evalúe realmente el aprendizaje definido y no aspectos secundarios.</li><li>Revise precisión conceptual, claridad de instrucciones y viabilidad dentro del tiempo disponible.</li><li>En rúbricas, los niveles de desempeño deben ser diferenciables y los criterios deben describir conductas o productos observables.</li><li>En preguntas o cuestionarios, evite respuestas ambiguas; las opciones incorrectas deben ser plausibles y la respuesta correcta debe poder justificarse.</li><li>Verifique que las fuentes, ejemplos y contenidos utilizados sean reales y pertinentes.</li></ul></aside>
+    
+    </article></div></section>
+
+<section class="session-close"><div class="container"><div class="close-card">
+<span class="eyebrow">Cierre de la sesión</span><h2>Antes de terminar</h2>
+<p>Revisa los resultados obtenidos, conserva únicamente aquello que hayas verificado y recuerda que la revisión y responsabilidad humana permanecen en todo momento.</p>
+<div class="attendance-box"><div><strong>Registra tu asistencia</strong><p>Diligencia el formulario correspondiente a esta sesión.</p></div><a class="button button-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSf7K9PW2e9wMHVtSn1OW-xQUXMVnxvvlGyyehhFBIkjSOoYmw/viewform" target="_blank" rel="noopener">Registrar asistencia →</a></div>
+<div class="continue-options" id="continue-options"></div>
+</div></div></section>
+</div>
+</main>
+
+<footer class="site-footer"><div class="container footer-inner"><div><strong>La FOUN al dIA con la IA</strong><p>Ruta de formación en Inteligencia Artificial</p></div><div class="footer-meta"><p>Facultad de Odontología</p><p>Universidad Nacional de Colombia</p><p>2026</p></div></div></footer>
+<script src="site-config.js"></script><script src="main.js"></script>
+</body></html>

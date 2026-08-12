@@ -1,0 +1,16 @@
+PRESENTACIONES ESPERADAS
+
+Coloca en esta carpeta los siguientes archivos PDF exactamente con estos nombres:
+
+- S_GEN_1.pdf
+- S_GEN_2.pdf
+- S_ESP_DOC_1.pdf
+- S_ESP_DOC_2.pdf
+
+Correspondencia:
+S_GEN_1.pdf       -> Sesión General 1
+S_GEN_2.pdf       -> Sesión General 2
+S_ESP_DOC_1.pdf   -> Sesión Específica Docentes 1
+S_ESP_DOC_2.pdf   -> Sesión Específica Docentes 2
+
+Las presentaciones de Administrativos y Estudiantes se incorporarán cuando sus contenidos estén definidos.
