@@ -1,5 +1,5 @@
 window.FOUN_CONFIG = {
-  "previewMode": true,
+  "previewMode": false,
   "siteName": "La FOUN al dIA con la IA",
   "sessions": {
     "general-1": {
