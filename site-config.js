@@ -76,7 +76,7 @@ window.FOUN_CONFIG = {
         "administrativos"
       ],
       "duration": "120 minutos",
-      "releaseDate": "2026-08-18",
+      "releaseDate": "2026-08-17",
       "description": "Sesión práctica orientada a transformar el contenido de una reunión en información clara, verificable y útil mediante herramientas de inteligencia artificial. Los participantes conocerán alternativas para registrar y transcribir reuniones, trabajarán con una transcripción ficticia en Gemini, verificarán información mediante citas y páginas, identificarán datos que requieren aclaración, construirán un acta y crearán un prompt reutilizable para aplicar el procedimiento en futuras reuniones. La sesión desarrolla un flujo completo: reunión → transcripción → verificación → aclaraciones → acta → seguimiento.",
       "presentation": "assets/presentations/S_ESP_ADM_1.pdf",
       "attendance": "https://forms.gle/cXAoyrAXGrskuVTp6",
