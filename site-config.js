@@ -14,7 +14,7 @@ window.FOUN_CONFIG = {
       "releaseDate": "2026-08-10",
       "description": "Sesión introductoria orientada a conocer qué es la inteligencia artificial generativa, qué puede hacer actualmente y cómo puede apoyar diferentes tareas académicas, administrativas y de aprendizaje en la Facultad de Odontología. La sesión presenta conceptos básicos, herramientas disponibles, ejemplos prácticos, riesgos y buenas prácticas para utilizar la IA con criterio, manteniendo la revisión y responsabilidad humana.",
       "presentation": "assets/presentations/S_GEN_1.pdf",
-      "attendance": "https://docs.google.com/forms/d/e/1FAIpQLSf7K9PW2e9wMHVtSn1OW-xQUXMVnxvvlGyyehhFBIkjSOoYmw/viewform",
+      "attendance": "#",
       "next": {
         "docentes": "general-2",
         "administrativos": "general-2"
@@ -70,16 +70,16 @@ window.FOUN_CONFIG = {
     },
     "administrativos-1": {
       "type": "Sesión específica · Administrativos 01",
-      "title": "Sesión Específica Administrativos 1",
+      "title": "Reuniones, acuerdos y seguimiento con IA",
       "audience": "Administrativos",
       "routes": [
         "administrativos"
       ],
-      "duration": "Por definir",
-      "releaseDate": null,
-      "description": "Primera sesión específica de la ruta para administrativos.",
-      "presentation": "assets/presentations/administrativos-1.pdf",
-      "attendance": "#",
+      "duration": "120 minutos",
+      "releaseDate": "2026-08-18",
+      "description": "Sesión práctica orientada a transformar el contenido de una reunión en información clara, verificable y útil mediante herramientas de inteligencia artificial. Los participantes conocerán alternativas para registrar y transcribir reuniones, trabajarán con una transcripción ficticia en Gemini, verificarán información mediante citas y páginas, identificarán datos que requieren aclaración, construirán un acta y crearán un prompt reutilizable para aplicar el procedimiento en futuras reuniones. La sesión desarrolla un flujo completo: reunión → transcripción → verificación → aclaraciones → acta → seguimiento.",
+      "presentation": "assets/presentations/S_ESP_ADM_1.pdf",
+      "attendance": "https://forms.gle/cXAoyrAXGrskuVTp6",
       "next": {
         "administrativos": "administrativos-2"
       }
