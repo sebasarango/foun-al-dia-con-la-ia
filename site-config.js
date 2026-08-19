@@ -95,7 +95,7 @@ window.FOUN_CONFIG = {
       "releaseDate": "2026-08-19",
       "description": "Sesión práctica orientada a convertir una base de información en un seguimiento más claro mediante Google Sheets, Gemini y Google Apps Script. Los participantes trabajarán con una base ficticia de solicitudes, aprenderán a pedir a la IA fórmulas sencillas para calcular y clasificar fechas, construirán un resumen de solicitudes y darán sus primeros pasos en Apps Script para registrar fechas de revisión. Posteriormente ampliarán el código para incorporar nuevas acciones y procesar varias filas, manteniendo la verificación humana como parte del proceso.",
       "presentation": "assets/presentations/S_ESP_ADM_2.pdf",
-      "attendance": "#",
+      "attendance": "https://forms.gle/cXAoyrAXGrskuVTp6",
       "next": {
         "administrativos": "administrativos-3"
       }
