@@ -86,15 +86,15 @@ window.FOUN_CONFIG = {
     },
     "administrativos-2": {
       "type": "Sesión específica · Administrativos 02",
-      "title": "Sesión Específica Administrativos 2",
+      "title": "Google Sheets, fórmulas y primeros pasos en Apps Script",
       "audience": "Administrativos",
       "routes": [
         "administrativos"
       ],
-      "duration": "Por definir",
-      "releaseDate": null,
-      "description": "Segunda sesión específica de la ruta para administrativos.",
-      "presentation": "assets/presentations/administrativos-2.pdf",
+      "duration": "120 minutos",
+      "releaseDate": "2026-08-19",
+      "description": "Sesión práctica orientada a convertir una base de información en un seguimiento más claro mediante Google Sheets, Gemini y Google Apps Script. Los participantes trabajarán con una base ficticia de solicitudes, aprenderán a pedir a la IA fórmulas sencillas para calcular y clasificar fechas, construirán un resumen de solicitudes y darán sus primeros pasos en Apps Script para registrar fechas de revisión. Posteriormente ampliarán el código para incorporar nuevas acciones y procesar varias filas, manteniendo la verificación humana como parte del proceso.",
+      "presentation": "assets/presentations/S_ESP_ADM_2.pdf",
       "attendance": "#",
       "next": {
         "administrativos": "administrativos-3"
