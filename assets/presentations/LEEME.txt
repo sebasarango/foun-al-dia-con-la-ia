@@ -1,16 +1,36 @@
-PRESENTACIONES ESPERADAS
+PARCHE ADM-03
 
-Coloca en esta carpeta los siguientes archivos PDF exactamente con estos nombres:
+Reemplaza en la raíz del repositorio:
+- administrativos-3.html
+- site-config.js
 
-- S_GEN_1.pdf
-- S_GEN_2.pdf
-- S_ESP_DOC_1.pdf
-- S_ESP_DOC_2.pdf
+DEBES CARGAR ADEMÁS:
+1. Presentación:
+   assets/presentations/S_ESP_ADM_3.pdf
 
-Correspondencia:
-S_GEN_1.pdf       -> Sesión General 1
-S_GEN_2.pdf       -> Sesión General 2
-S_ESP_DOC_1.pdf   -> Sesión Específica Docentes 1
-S_ESP_DOC_2.pdf   -> Sesión Específica Docentes 2
+2. Archivo de trabajo:
+   assets/files/ADM03_Notas_y_plantilla_PDF - sesión.xlsx
 
-Las presentaciones de Administrativos y Estudiantes se incorporarán cuando sus contenidos estén definidos.
+La página ya está enlazada a esos nombres exactos.
+
+NO NECESITAS MODIFICAR:
+- styles.css
+- main.js
+- administrativos.html
+
+FECHA DE HABILITACIÓN:
+20/08/2026
+
+FORMULARIO:
+https://forms.gle/cXAoyrAXGrskuVTp6
+
+IMPORTANTE SOBRE EL PROMPT:
+La ficha ADM-03 indica "PROMPT 1: por definir".
+Por esa razón, la página NO incluye un botón "Copiar prompt".
+En su lugar presenta el reto completo en 10 pasos, indicando para cada uno:
+- objetivo
+- información que necesita la IA
+- criterio para saber si la etapa terminó
+
+Si posteriormente se define un prompt general para la actividad, será necesario
+actualizar únicamente administrativos-3.html para agregarlo.
