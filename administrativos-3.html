@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Sesión Específica Administrativos 3 - La FOUN al dIA con la IA">
-  <title>Sesión Específica Administrativos 3 | La FOUN al dIA con la IA</title>
+  <meta name="description" content="¿Cómo automatizar el envío de información desde Google Sheets? - La FOUN al dIA con la IA">
+  <title>¿Cómo automatizar el envío de información desde Google Sheets? | La FOUN al dIA con la IA</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
@@ -19,10 +19,10 @@
       <span class="sr-only">Abrir menú</span><span></span><span></span><span></span>
     </button>
     <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
-      <a href="index.html" >Inicio</a>
-      <a href="docentes.html" >Docentes</a>
-      <a href="administrativos.html" >Administrativos</a>
-      <a href="estudiantes.html" >Estudiantes</a>
+      <a href="index.html">Inicio</a>
+      <a href="docentes.html">Docentes</a>
+      <a href="administrativos.html">Administrativos</a>
+      <a href="estudiantes.html">Estudiantes</a>
     </nav>
     <div class="institution">Facultad de Odontología · UNAL</div>
   </div>
@@ -33,7 +33,7 @@
     <div class="locked-page-card">
       <span class="locked-icon">🔒</span>
       <span class="eyebrow">Sesión aún no disponible</span>
-      <h1 id="locked-session-title">Sesión Específica Administrativos 3</h1>
+      <h1 id="locked-session-title">¿Cómo automatizar el envío de información desde Google Sheets?</h1>
       <p id="locked-session-date">Esta sesión se habilitará próximamente.</p>
       <a href="index.html" class="button button-primary">Volver al inicio</a>
     </div>
@@ -44,151 +44,262 @@
       <div class="container">
         <nav class="breadcrumbs"><a href="index.html">Inicio</a><span>›</span><span>Sesión específica · Administrativos 03</span></nav>
         <span class="eyebrow">Sesión específica · Administrativos 03</span>
-        <h1>Sesión Específica Administrativos 3</h1>
-        <p>Tercera sesión específica de la ruta para administrativos.</p>
-        <div class="session-hero-meta"><span>Administrativos</span><span>Duración: Por definir</span></div>
-        <a class="button button-primary" href="assets/presentations/administrativos-3.pdf" download>↓ Descargar presentación</a>
+        <h1>¿Cómo automatizar el envío de información desde Google Sheets?</h1>
+        <p>Sesión práctica orientada a construir, con apoyo de inteligencia artificial, un flujo controlado que parte de una tabla en Google Sheets y termina en el envío de un correo con un archivo PDF adjunto. Durante la sesión se trabajará con información ficticia para calcular resultados, trasladar datos a una plantilla, generar un PDF, preparar correos de prueba y realizar un único envío controlado. El énfasis está en explicar la necesidad, definir reglas, probar por partes, describir errores y verificar cada resultado antes de autorizar un envío.</p>
+        <div class="session-hero-meta"><span>Administrativos</span><span>Duración: 120 minutos</span></div>
+        <a class="button button-primary" href="assets/presentations/S_ESP_ADM_3.pdf" download>↓ Descargar presentación</a>
       </div>
     </section>
 
     <section class="session-outline">
       <div class="container">
         <div class="section-heading compact"><span class="eyebrow">En esta sesión</span><h2>Tu recorrido</h2></div>
-        <div class="outline-list">
-          <div class="outline-item"><span>01</span><div><strong>Introducción</strong><p>[Descripción breve del primer momento.]</p></div></div>
-          <div class="outline-item"><span>02</span><div><strong>Demostración</strong><p>[Descripción breve de la demostración.]</p></div></div>
-          <div class="outline-item"><span>03</span><div><strong>Ejercicio práctico</strong><p>[Descripción breve de la actividad.]</p></div></div>
-          <div class="outline-item"><span>04</span><div><strong>Cierre</strong><p>Registro de asistencia y continuidad de la ruta.</p></div></div>
-        </div>
+        <div class="outline-list"><div class="outline-item"><span>01</span><div><strong>Solicitar fórmulas con nuestras propias palabras.</strong></div></div><div class="outline-item"><span>02</span><div><strong>Explicar cómo están organizados los datos en Google Sheets.</strong></div></div><div class="outline-item"><span>03</span><div><strong>Trasladar información desde una tabla a una plantilla individual.</strong></div></div><div class="outline-item"><span>04</span><div><strong>Preparar y probar un correo automático antes de incorporar archivos adjuntos.</strong></div></div><div class="outline-item"><span>05</span><div><strong>Generar un PDF desde una hoja específica de Google Sheets.</strong></div></div><div class="outline-item"><span>06</span><div><strong>Adjuntar el PDF y realizar un envío controlado.</strong></div></div><div class="outline-item"><span>07</span><div><strong>Verificar que la información enviada, el destinatario y el archivo adjunto sean correctos.</strong></div></div></div>
       </div>
     </section>
 
     <section class="exercise-section">
       <div class="container exercise-stack">
-        
-<article class="exercise-card">
-  <header class="exercise-header">
-    <span class="exercise-label">EJERCICIO 01</span>
-    <h2>[Nombre del ejercicio 1]</h2>
-    <p>[Una frase breve sobre lo que se realizará en este ejercicio.]</p>
-  </header>
+        <article class="exercise-card">
+          <header class="exercise-header">
+            <span class="exercise-label">EJERCICIO 01 · RETO PRÁCTICO</span>
+            <h2>De una tabla de notas a un correo con PDF</h2>
+            <p>Reto práctico desarrollado por etapas para transformar una tabla ficticia de resultados en un producto individual: se calculan el promedio y el estado de aprobación, se trasladan los datos del primer registro a una plantilla, se prueba un correo, se genera un PDF de la plantilla, se adjunta el archivo y finalmente se realiza un único envío controlado.</p>
+          </header>
 
-  <div class="exercise-objective">
-    <span class="step-kicker">Objetivo</span>
-    <p>[Qué debería lograr el participante al finalizar el ejercicio.]</p>
-  </div>
+          <div class="exercise-objective">
+            <span class="step-kicker">Objetivo</span>
+            <p>Aplicar una metodología de construcción asistida por IA en la que cada parte de una automatización se define, construye, prueba y verifica antes de continuar, manteniendo el control humano sobre los datos, los destinatarios y la autorización del envío.</p>
+          </div>
 
-  <div class="exercise-step">
-    <span class="step-number">Paso 1</span>
-    <h3>Descarga el material</h3>
-    <p>Descarga el archivo requerido. Si este ejercicio no necesita un archivo, este bloque puede eliminarse.</p>
-    <div class="download-list">
-      <div class="download-card">
-        <div><span class="file-type">ARCHIVO</span><strong>[Nombre del archivo de práctica]</strong><small>PDF / DOCX / XLSX / JPG</small></div>
-        <a class="download-button" href="assets/files/administrativos-3-ejercicio-1.pdf" download>↓ Descargar archivo</a>
+          <div class="exercise-step">
+            <span class="step-number">Antes de comenzar</span>
+            <h3>Descarga y prepara el archivo</h3>
+            <div class="download-list">
+              <div class="download-card">
+                <div>
+                  <span class="file-type">XLSX</span>
+                  <strong>ADM03_Notas_y_plantilla_PDF - sesión.xlsx</strong>
+                  <small>Archivo de trabajo para toda la sesión</small>
+                </div>
+                <a class="download-button" href="assets/files/ADM03_Notas_y_plantilla_PDF%20-%20sesi%C3%B3n.xlsx" download>↓ Descargar archivo</a>
+              </div>
+            </div>
+            <ol><li>Abrir el archivo del ejercicio.</li><li>Crear una copia en Google Drive.</li><li>Confirmar el acceso a Google Sheets y Apps Script.</li><li>Identificar el correo propio que se utilizará durante las pruebas.</li><li>No utilizar información académica real durante el ejercicio.</li></ol>
+          </div>
+
+          <div class="exercise-step">
+            <span class="step-number">Reglas de la práctica</span>
+            <h3>Trabaja de forma controlada</h3>
+            <ul><li>Trabajar únicamente con información ficticia.</li><li>Durante las pruebas utilizar solo el primer registro y el correo del participante.</li><li>No enviar automáticamente los 15 correos de la tabla.</li><li>La fase de pruebas debe terminar antes de realizar el envío controlado.</li><li>Primero se prueba; después se autoriza.</li></ul>
+          </div>
+
+          <div class="exercise-step">
+            <span class="step-number">Metodología</span>
+            <h3>Construye y prueba por etapas</h3>
+            <p>Después de cada cambio, ejecuta una prueba concreta, observa el resultado y verifica que se cumpla el criterio de finalización antes de continuar con el siguiente paso.</p>
+            <aside class="reflection-box">
+              <span class="step-kicker">Prompt de la actividad</span>
+              <p>La ficha de la sesión aún indica <strong>“por definir”</strong>. Por ello, esta página no entrega un prompt prediseñado: las instrucciones se construirán durante la sesión a partir de la información requerida en cada etapa.</p>
+            </aside>
+          </div>
+
+          
+    <div class="exercise-step">
+      <span class="step-number">Paso 1</span>
+      <h3>Explorar el archivo</h3>
+      <div class="exercise-objective">
+        <span class="step-kicker">Objetivo</span>
+        <p>Reconocer dónde se encuentra la información.</p>
+      </div>
+      <div class="reflection-box">
+        <span class="step-kicker">Información que necesita la IA</span>
+        <p>Nombres de las hojas; columnas importantes; celdas de la plantilla; fila que se utilizará.</p>
+      </div>
+      <div class="reflection-box">
+        <span class="step-kicker">¿Cómo sé que terminé?</span>
+        <p>Puedo indicar dónde están los datos y dónde deben aparecer en la plantilla.</p>
       </div>
     </div>
-  </div>
-
-  <div class="exercise-step">
-    <span class="step-number">Paso 2</span>
-    <h3>Prepara la herramienta</h3>
-    <ol><li>Abre la herramienta de IA indicada durante la sesión.</li><li>Inicia una conversación nueva.</li><li>Adjunta el archivo descargado, si corresponde.</li></ol>
-  </div>
-
-  <div class="exercise-step">
-    <span class="step-number">Paso 3</span>
-    <h3>Copia el prompt</h3>
-    <p>Copia el texto completo y pégalo en la herramienta.</p>
-    <div class="prompt-block">
-      <div class="prompt-topbar"><span>PROMPT</span><button class="copy-prompt" type="button" data-copy-target="administrativos-3-p1">Copiar prompt</button></div>
-      <div id="administrativos-3-p1" class="prompt-text">Actúa como [rol o contexto].
-
-Necesito que [instrucción principal].
-
-Entrega:
-1. [Resultado esperado 1]
-2. [Resultado esperado 2]
-3. [Resultado esperado 3]
-
-No inventes información que no esté disponible en los insumos.</div>
-    </div>
-  </div>
-
-  <div class="exercise-step">
-    <span class="step-number">Paso 4</span>
-    <h3>Ejecuta el ejercicio</h3>
-    <ol><li>Pega el prompt.</li><li>Ejecuta la consulta.</li><li>Revisa la respuesta generada.</li></ol>
-  </div>
-
-  <aside class="reflection-box">
-    <span class="step-kicker">Fíjate en esto</span>
-    <ul><li>¿La IA siguió todas las instrucciones?</li><li>¿Qué información requiere verificación?</li><li>¿Qué modificarías para obtener una respuesta más útil?</li></ul>
-  </aside>
-</article>
-
-        
-<article class="exercise-card">
-  <header class="exercise-header">
-    <span class="exercise-label">EJERCICIO 02</span>
-    <h2>[Nombre del ejercicio 2]</h2>
-    <p>[Ejercicio de varias etapas para consultas iterativas o comparación de documentos.]</p>
-  </header>
-
-  <div class="exercise-objective">
-    <span class="step-kicker">Objetivo</span>
-    <p>[Qué debería lograr el participante al finalizar el ejercicio.]</p>
-  </div>
-
-  <div class="exercise-step">
-    <span class="step-number">Paso 1</span>
-    <h3>Descarga los archivos</h3>
-    <div class="download-list">
-      <div class="download-card">
-        <div><span class="file-type">ARCHIVO 1</span><strong>[Nombre del primer archivo]</strong><small>PDF / DOCX / XLSX / JPG</small></div>
-        <a class="download-button" href="assets/files/administrativos-3-ejercicio-2-archivo-1.pdf" download>↓ Descargar archivo 1</a>
+    
+    <div class="exercise-step">
+      <span class="step-number">Paso 2</span>
+      <h3>Calcular el promedio</h3>
+      <div class="exercise-objective">
+        <span class="step-kicker">Objetivo</span>
+        <p>Calcular el promedio de las cinco evaluaciones.</p>
       </div>
-      <div class="download-card">
-        <div><span class="file-type">ARCHIVO 2</span><strong>[Nombre del segundo archivo]</strong><small>PDF / DOCX / XLSX / JPG</small></div>
-        <a class="download-button" href="assets/files/administrativos-3-ejercicio-2-archivo-2.pdf" download>↓ Descargar archivo 2</a>
+      <div class="reflection-box">
+        <span class="step-kicker">Información que necesita la IA</span>
+        <p>Las notas están entre las columnas C y G; el promedio debe aparecer en H; la fórmula debe copiarse a las demás filas.</p>
+      </div>
+      <div class="reflection-box">
+        <span class="step-kicker">¿Cómo sé que terminé?</span>
+        <p>Todas las filas muestran un promedio numérico.</p>
       </div>
     </div>
-  </div>
-
-  <div class="exercise-step">
-    <span class="step-number">Paso 2</span>
-    <h3>Realiza la primera consulta</h3>
-    <div class="prompt-block">
-      <div class="prompt-topbar"><span>PROMPT 1</span><button class="copy-prompt" type="button" data-copy-target="administrativos-3-p2-a">Copiar prompt</button></div>
-      <div id="administrativos-3-p2-a" class="prompt-text">[Primer prompt completo del ejercicio.]
-
-Incluye aquí todas las instrucciones que el participante debe copiar.</div>
+    
+    <div class="exercise-step">
+      <span class="step-number">Paso 3</span>
+      <h3>Determinar el resultado</h3>
+      <div class="exercise-objective">
+        <span class="step-kicker">Objetivo</span>
+        <p>Clasificar cada promedio como APROBADO o REPROBADO.</p>
+      </div>
+      <div class="reflection-box">
+        <span class="step-kicker">Información que necesita la IA</span>
+        <p>Promedio mayor o igual a 3: APROBADO; promedio inferior a 3: REPROBADO; el resultado debe aparecer en I.</p>
+      </div>
+      <div class="reflection-box">
+        <span class="step-kicker">¿Cómo sé que terminé?</span>
+        <p>La columna I muestra el resultado correcto y se verifica al menos un caso de cada tipo.</p>
+      </div>
     </div>
-  </div>
-
-  <div class="exercise-step">
-    <span class="step-number">Paso 3</span>
-    <h3>Revisa el resultado</h3>
-    <p>[Indicación breve sobre qué debe observar el participante antes de continuar.]</p>
-  </div>
-
-  <div class="exercise-step">
-    <span class="step-number">Paso 4</span>
-    <h3>Profundiza la consulta</h3>
-    <div class="prompt-block">
-      <div class="prompt-topbar"><span>PROMPT 2</span><button class="copy-prompt" type="button" data-copy-target="administrativos-3-p2-b">Copiar prompt</button></div>
-      <div id="administrativos-3-p2-b" class="prompt-text">[Segundo prompt completo del ejercicio.]
-
-Este bloque permite continuar la conversación de forma guiada.</div>
+    
+    <div class="exercise-step">
+      <span class="step-number">Paso 4</span>
+      <h3>Planear la transferencia</h3>
+      <div class="exercise-objective">
+        <span class="step-kicker">Objetivo</span>
+        <p>Definir qué dato sale de cada columna y en qué celda debe aparecer antes de programar.</p>
+      </div>
+      <div class="reflection-box">
+        <span class="step-kicker">Información que necesita la IA</span>
+        <p>Fecha → C4; Nombre (columna A) → C6; Promedio (columna H) → C8; Resultado (columna I) → C10 en Plantilla_PDF.</p>
+      </div>
+      <div class="reflection-box">
+        <span class="step-kicker">¿Cómo sé que terminé?</span>
+        <p>La IA explica claramente qué datos trasladará y de dónde los tomará.</p>
+      </div>
     </div>
-  </div>
+    
+    <div class="exercise-step">
+      <span class="step-number">Paso 5</span>
+      <h3>Completar la plantilla</h3>
+      <div class="exercise-objective">
+        <span class="step-kicker">Objetivo</span>
+        <p>Trasladar los datos del primer registro a Plantilla_PDF.</p>
+      </div>
+      <div class="reflection-box">
+        <span class="step-kicker">Información que necesita la IA</span>
+        <p>Hoja y fila de origen; columnas de origen; celdas de destino; sustituir los valores anteriores.</p>
+      </div>
+      <div class="reflection-box">
+        <span class="step-kicker">¿Cómo sé que terminé?</span>
+        <p>La plantilla muestra el nombre, la nota y el resultado de una sola persona.</p>
+      </div>
+    </div>
+    
+    <div class="exercise-step">
+      <span class="step-number">Paso 6</span>
+      <h3>Probar el correo sin PDF</h3>
+      <div class="exercise-objective">
+        <span class="step-kicker">Objetivo</span>
+        <p>Enviar un primer correo de prueba, todavía sin archivo adjunto.</p>
+      </div>
+      <div class="reflection-box">
+        <span class="step-kicker">Información que necesita la IA</span>
+        <p>Destinatario definido manualmente; correo del participante; asunto y mensaje; todavía sin adjunto.</p>
+      </div>
+      <div class="reflection-box">
+        <span class="step-kicker">¿Cómo sé que terminé?</span>
+        <p>Recibo en mi propio correo un mensaje con asunto y contenido correctos, todavía sin PDF.</p>
+      </div>
+    </div>
+    
+    <div class="exercise-step">
+      <span class="step-number">Paso 7</span>
+      <h3>Generar el PDF</h3>
+      <div class="exercise-objective">
+        <span class="step-kicker">Objetivo</span>
+        <p>Crear el archivo PDF sin realizar todavía el envío final.</p>
+      </div>
+      <div class="reflection-box">
+        <span class="step-kicker">Información que necesita la IA</span>
+        <p>Exportar solo Plantilla_PDF; no exportar todo el libro; asignar un nombre identificable; confirmar nombre y tamaño en el registro.</p>
+      </div>
+      <div class="reflection-box">
+        <span class="step-kicker">¿Cómo sé que terminé?</span>
+        <p>La ejecución termina sin errores y el registro confirma que el PDF tiene nombre y un tamaño mayor que cero.</p>
+      </div>
+    </div>
+    
+    <div class="exercise-step">
+      <span class="step-number">Paso 8</span>
+      <h3>Enviar la prueba con PDF</h3>
+      <div class="exercise-objective">
+        <span class="step-kicker">Objetivo</span>
+        <p>Adjuntar el PDF al correo que ya fue probado.</p>
+      </div>
+      <div class="reflection-box">
+        <span class="step-kicker">Información que necesita la IA</span>
+        <p>Utilizar el PDF generado; mantener el correo del participante; usar solo el primer registro; no recorrer las demás filas.</p>
+      </div>
+      <div class="reflection-box">
+        <span class="step-kicker">¿Cómo sé que terminé?</span>
+        <p>Recibo un segundo correo, aparece un archivo PDF adjunto y puedo abrirlo correctamente.</p>
+      </div>
+    </div>
+    
+    <div class="exercise-step">
+      <span class="step-number">Paso 9</span>
+      <h3>Verificar la prueba</h3>
+      <div class="exercise-objective">
+        <span class="step-kicker">Objetivo</span>
+        <p>Comparar la fila original, la plantilla, el PDF y el correo.</p>
+      </div>
+      <div class="reflection-box">
+        <span class="step-kicker">Información que necesita la IA</span>
+        <p>Nombre; nota final; resultado; destinatario de prueba.</p>
+      </div>
+      <div class="reflection-box">
+        <span class="step-kicker">¿Cómo sé que terminé?</span>
+        <p>Los datos coinciden en todos los lugares y no se enviaron mensajes adicionales.</p>
+      </div>
+    </div>
+    
+    <div class="exercise-step">
+      <span class="step-number">Paso 10</span>
+      <h3>Realizar el envío controlado</h3>
+      <div class="exercise-objective">
+        <span class="step-kicker">Objetivo</span>
+        <p>Enviar un único correo al primer registro después de aprobar la prueba.</p>
+      </div>
+      <div class="reflection-box">
+        <span class="step-kicker">Información que necesita la IA</span>
+        <p>Cambiar de PRUEBA a FINAL; usar el correo del primer registro; durante el taller, correo del expositor; no procesar las otras 14 filas.</p>
+      </div>
+      <div class="reflection-box">
+        <span class="step-kicker">¿Cómo sé que terminé?</span>
+        <p>El expositor confirma que recibió un único correo con el PDF correcto.</p>
+      </div>
+    </div>
+    
 
-  <aside class="reflection-box">
-    <span class="step-kicker">Fíjate en esto</span>
-    <ul><li>¿Qué cambió entre la primera y la segunda respuesta?</li><li>¿Qué información debería verificarse?</li><li>¿La segunda instrucción mejoró el resultado?</li></ul>
-  </aside>
-</article>
+          <aside class="reflection-box">
+            <span class="step-kicker">Fíjate en esto</span>
+            <ul><li>La meta no es memorizar código, sino aprender a explicar una necesidad para construir una solución con IA.</li><li>La ubicación de hojas, columnas, filas y celdas debe estar claramente definida.</li><li>Un primer resultado no tiene que ser la solución definitiva: describir, probar, observar, ajustar y volver a probar hace parte del proceso.</li><li>Durante las pruebas no se deben utilizar los correos contenidos en la tabla.</li><li>Verificar el contenido es tan importante como comprobar que el correo llegó.</li><li>La IA ayuda a construir; la persona mantiene el criterio, el control y la responsabilidad sobre el envío.</li></ul>
+          </aside>
 
+          <div class="exercise-step">
+            <span class="step-number">Punto de control 1</span>
+            <h3>Verifica los datos antes de avanzar</h3>
+            <p>Comprueba que el promedio sea correcto, que la regla de aprobación se haya aplicado correctamente, que la plantilla muestre el primer registro y que sus valores coincidan con la fila original.</p>
+          </div>
+
+          <div class="exercise-step">
+            <span class="step-number">Punto de control 2</span>
+            <h3>Verifica el envío de prueba</h3>
+            <p>Comprueba que el primer correo haya llegado a la dirección esperada, que el asunto y el mensaje sean correctos, que se haya utilizado solamente el primer registro y que ningún correo haya llegado a los demás registros.</p>
+          </div>
+
+          <div class="exercise-step">
+            <span class="step-number">Si algo no funciona</span>
+            <h3>Describe el problema antes de pedir una corrección</h3>
+            <p>Evita limitarte a decir “El código no funciona”. Para que la IA pueda ayudar a diagnosticar el problema, describe:</p>
+            <ol><li>Qué esperaba que ocurriera.</li><li>Qué ocurrió realmente.</li><li>En qué paso ocurrió.</li><li>Qué error apareció.</li><li>Qué hoja o fila utilizó.</li><li>Qué parte sí funcionó.</li></ol>
+          </div>
+        </article>
       </div>
     </section>
 
@@ -196,12 +307,12 @@ Este bloque permite continuar la conversación de forma guiada.</div>
       <div class="container">
         <div class="close-card">
           <span class="eyebrow">Cierre de la sesión</span>
-          <h2>Antes de terminar</h2>
-          <p>[Síntesis breve de los aprendizajes o actividades realizadas durante la sesión.]</p>
+          <h2>La IA ayuda. La responsabilidad permanece.</h2>
+          <p>La sesión consolida una forma de trabajo transferible a otros procesos administrativos: explicar el problema, aportar el contexto, definir las reglas, probar por partes, describir los errores y verificar antes de enviar.</p>
 
           <div class="attendance-box">
             <div><strong>Registra tu asistencia</strong><p>Diligencia el formulario correspondiente a esta sesión.</p></div>
-            <a class="button button-primary" href="#" target="_blank" rel="noopener">Registrar asistencia →</a>
+            <a class="button button-primary" href="https://forms.gle/cXAoyrAXGrskuVTp6" target="_blank" rel="noopener">Registrar asistencia →</a>
           </div>
 
           <div class="continue-options" id="continue-options"></div>
@@ -213,18 +324,12 @@ Este bloque permite continuar la conversación de forma guiada.</div>
 
 <footer class="site-footer">
   <div class="container footer-inner">
-    <div>
-      <strong>La FOUN al dIA con la IA</strong>
-      <p>Ruta de formación en Inteligencia Artificial</p>
-    </div>
-    <div class="footer-meta">
-      <p>Facultad de Odontología</p>
-      <p>Universidad Nacional de Colombia</p>
-      <p>2026</p>
-    </div>
+    <div><strong>La FOUN al dIA con la IA</strong><p>Ruta de formación en Inteligencia Artificial</p></div>
+    <div class="footer-meta"><p>Facultad de Odontología</p><p>Universidad Nacional de Colombia</p><p>2026</p></div>
   </div>
 </footer>
 
 <script src="site-config.js"></script>
 <script src="main.js"></script>
-</body></html>
+</body>
+</html>

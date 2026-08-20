@@ -14,7 +14,7 @@ window.FOUN_CONFIG = {
       "releaseDate": "2026-08-10",
       "description": "Sesión introductoria orientada a conocer qué es la inteligencia artificial generativa, qué puede hacer actualmente y cómo puede apoyar diferentes tareas académicas, administrativas y de aprendizaje en la Facultad de Odontología. La sesión presenta conceptos básicos, herramientas disponibles, ejemplos prácticos, riesgos y buenas prácticas para utilizar la IA con criterio, manteniendo la revisión y responsabilidad humana.",
       "presentation": "assets/presentations/S_GEN_1.pdf",
-      "attendance": "#",
+      "attendance": "https://forms.gle/cXAoyrAXGrskuVTp6",
       "next": {
         "docentes": "general-2",
         "administrativos": "general-2"
@@ -32,7 +32,7 @@ window.FOUN_CONFIG = {
       "releaseDate": "2026-08-11",
       "description": "Sesión orientada a pasar de una comprensión general de la inteligencia artificial a la identificación de aplicaciones concretas en tareas de la Facultad. Retoma los principios básicos de la sesión anterior, presenta el marco institucional de buen uso y apropiación ética de la IA en la Universidad Nacional de Colombia, revisa criterios específicos para Odontología y muestra dos casos reales de uso de IA para construir soluciones digitales y automatizaciones. La sesión cierra con la identificación de oportunidades de aplicación en tareas académicas y administrativas.",
       "presentation": "assets/presentations/S_GEN_2.pdf",
-      "attendance": "https://docs.google.com/forms/d/e/1FAIpQLSf7K9PW2e9wMHVtSn1OW-xQUXMVnxvvlGyyehhFBIkjSOoYmw/viewform",
+      "attendance": "https://forms.gle/cXAoyrAXGrskuVTp6",
       "next": {
         "docentes": "docentes-1",
         "administrativos": "administrativos-1"
@@ -49,7 +49,7 @@ window.FOUN_CONFIG = {
       "releaseDate": "2026-08-12",
       "description": "Taller aplicado para docentes orientado a utilizar herramientas de inteligencia artificial como apoyo para diseñar o mejorar clases, seminarios, actividades y recursos evaluativos. La sesión trabaja la construcción de propuestas iniciales de clase a partir del contexto, el resultado de aprendizaje, la secuencia, la participación, la evidencia y las condiciones de la sesión; posteriormente aborda el diseño de rúbricas, bancos de preguntas, cuestionarios e instrucciones. El principio de trabajo es que la IA propone primeras versiones y el docente verifica, ajusta y decide.",
       "presentation": "assets/presentations/S_ESP_DOC_1.pdf",
-      "attendance": "https://docs.google.com/forms/d/e/1FAIpQLSf7K9PW2e9wMHVtSn1OW-xQUXMVnxvvlGyyehhFBIkjSOoYmw/viewform",
+      "attendance": "https://forms.gle/cXAoyrAXGrskuVTp6",
       "next": {
         "docentes": "docentes-2"
       }
@@ -65,7 +65,7 @@ window.FOUN_CONFIG = {
       "releaseDate": "2026-08-13",
       "description": "Taller aplicado para docentes enfocado en trabajar con información académica mediante herramientas de IA. La sesión diferencia el papel de Perplexity para explorar y localizar fuentes, NotebookLM para consultar documentos cargados y ChatGPT o Gemini para organizar y transformar información. Los participantes practican el análisis trazable de una fuente académica en NotebookLM y realizan una búsqueda real en Perplexity, con énfasis en revisar la fuente original, distinguir afirmaciones de inferencias y verificar autoría, fecha, tipo de evidencia y correspondencia con las afirmaciones.",
       "presentation": "assets/presentations/S_ESP_DOC_2.pdf",
-      "attendance": "https://docs.google.com/forms/d/e/1FAIpQLSf7K9PW2e9wMHVtSn1OW-xQUXMVnxvvlGyyehhFBIkjSOoYmw/viewform",
+      "attendance": "https://forms.gle/cXAoyrAXGrskuVTp6",
       "next": {}
     },
     "administrativos-1": {
@@ -102,16 +102,16 @@ window.FOUN_CONFIG = {
     },
     "administrativos-3": {
       "type": "Sesión específica · Administrativos 03",
-      "title": "Sesión Específica Administrativos 3",
+      "title": "¿Cómo automatizar el envío de información desde Google Sheets?",
       "audience": "Administrativos",
       "routes": [
         "administrativos"
       ],
-      "duration": "Por definir",
-      "releaseDate": null,
-      "description": "Tercera sesión específica de la ruta para administrativos.",
-      "presentation": "assets/presentations/administrativos-3.pdf",
-      "attendance": "#",
+      "duration": "120 minutos",
+      "releaseDate": "2026-08-20",
+      "description": "Sesión práctica orientada a construir, con apoyo de inteligencia artificial, un flujo controlado que parte de una tabla en Google Sheets y termina en el envío de un correo con un archivo PDF adjunto. Durante la sesión se trabajará con información ficticia para calcular resultados, trasladar datos a una plantilla, generar un PDF, preparar correos de prueba y realizar un único envío controlado. El énfasis está en explicar la necesidad, definir reglas, probar por partes, describir errores y verificar cada resultado antes de autorizar un envío.",
+      "presentation": "assets/presentations/S_ESP_ADM_3.pdf",
+      "attendance": "https://forms.gle/cXAoyrAXGrskuVTp6",
       "next": {}
     },
     "estudiantes-general": {
