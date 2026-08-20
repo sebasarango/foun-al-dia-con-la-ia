@@ -108,7 +108,7 @@ window.FOUN_CONFIG = {
         "administrativos"
       ],
       "duration": "120 minutos",
-      "releaseDate": "2026-08-20",
+      "releaseDate": "2026-08-19",
       "description": "Sesión práctica orientada a construir, con apoyo de inteligencia artificial, un flujo controlado que parte de una tabla en Google Sheets y termina en el envío de un correo con un archivo PDF adjunto. Durante la sesión se trabajará con información ficticia para calcular resultados, trasladar datos a una plantilla, generar un PDF, preparar correos de prueba y realizar un único envío controlado. El énfasis está en explicar la necesidad, definir reglas, probar por partes, describir errores y verificar cada resultado antes de autorizar un envío.",
       "presentation": "assets/presentations/S_ESP_ADM_3.pdf",
       "attendance": "https://forms.gle/cXAoyrAXGrskuVTp6",
